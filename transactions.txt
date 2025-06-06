@@ -1,0 +1,22 @@
+Date/Time: 2025-06-06 20:58:53
+Cashier: AoifeMeg30
+Items Purchased:
+  - Cappuccino | Qty: 1 | Price: PHP 90.0
+  - Hashbrown | Qty: 2 | Price: PHP 65.0
+  - French Fries | Qty: 2 | Price: PHP 60.0
+  - Hamburger | Qty: 2 | Price: PHP 65.0
+Total: PHP 470.0
+Payment: PHP 500.0
+Change: PHP 30.0
+----------------------------------------------------
+Date/Time: 2025-06-06 21:02:04
+Cashier: AoifeMeg30
+Items Purchased:
+  - Tuna Sandwhich | Qty: 2 | Price: PHP 70.0
+  - Ham & Cheese Sandwhich | Qty: 2 | Price: PHP 70.0
+  - French Fries | Qty: 1 | Price: PHP 60.0
+  - Hazelnut Latte  | Qty: 1 | Price: PHP 100.0
+Total: PHP 440.0
+Payment: PHP 1000.0
+Change: PHP 560.0
+----------------------------------------------------
