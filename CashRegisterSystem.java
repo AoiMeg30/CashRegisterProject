@@ -12,7 +12,7 @@ public class CashRegisterSystem {
     
     static ArrayList<String> usernames = new ArrayList<>();
     static ArrayList<String> passwords = new ArrayList<>();
-    static String currentUser = ""; // Track logged-in user
+    static String currentUser = "";
 
 public static void userSignup() {
     String username = "^[a-zA-Z0-9]{5,15}$";
@@ -51,7 +51,7 @@ public static boolean userLogin() {
 
         for(int i = 0; i < usernames.size() && i < passwords.size(); i++) {
             if (usernames.get(i).equals(user) && passwords.get(i).equals(pass)) {
-                currentUser = user; // Set current user
+                currentUser = user;
                 System.out.println("Login Successfull! Welcome " + user + "!");
                 System.out.println("----------------------------------------------------");
                 return true;
@@ -88,7 +88,7 @@ public static void displayOptions() {
     System.out.println("1. Menu");
     System.out.println("2. Add Item");
     System.out.println("3. Display Item");
-    System.out.println("4. Update Quantity"); // <-- Added
+    System.out.println("4. Update Quantity");
     System.out.println("5. Delete Item");
     System.out.println("6. Proceed to Payment");
     System.out.println("7. Exit");
